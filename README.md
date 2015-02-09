@@ -1,2 +1,2 @@
 # hello-world
-My first repository
+This repository contains a list of relevant links for learning coding.
