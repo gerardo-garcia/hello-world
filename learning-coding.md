@@ -2,8 +2,8 @@
 
 ##Web
 
-- [HTML W3Schools](http://www.w3schools.com/html/default.asp)
-- [CSS W3Schools](http://www.w3schools.com/css/default.asp)
+- [HTML W3Schools](http://www.w3schools.com/html/)
+- [CSS W3Schools](http://www.w3schools.com/css/)
 - [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/)
 - [Learn CSS Layout](http://learnlayout.com/)
 - [JS for cats](http://jsforcats.com/)
@@ -12,3 +12,6 @@
 ##Python
 - [The Python Tutorial](https://docs.python.org/2/tutorial/)
 - [WxPython](http://wiki.wxpython.org/Getting%20Started)
+
+##SQL
+- [SQL W3Schools](http://www.w3schools.com/sql/)
