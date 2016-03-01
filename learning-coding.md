@@ -19,4 +19,4 @@
 ##Git
 - [Learn Git Branching](http://pcottle.github.io/learnGitBranching/)
 - [Try Git Code School](https://try.github.io/levels/1/challenges/1)
-
+- [Atlassian Git tutorial](https://www.atlassian.com/git/tutorials)
