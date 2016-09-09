@@ -20,3 +20,11 @@
 - [Learn Git Branching](http://pcottle.github.io/learnGitBranching/)
 - [Try Git Code School](https://try.github.io/levels/1/challenges/1)
 - [Atlassian Git tutorial](https://www.atlassian.com/git/tutorials)
+
+##Gerrrit:
+- [Gerrit User Review UI](https://gerrit-review.googlesource.com/Documentation/user-review-ui.html)
+- [Inline editing in gerrit](https://gerrit-review.googlesource.com/Documentation/user-inline-edit.html)
+
+##Markdown:
+- [Online Markdown editor](http://dillinger.io/)
+
