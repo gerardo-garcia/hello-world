@@ -6,7 +6,8 @@ Necesitas instalar strfile y fortune.
 ##Fichero motds
 Es el fichero que tiene las frases en lineas independientes, separadas por el signo "%".
 
-```Frase1
+```
+Frase1
 %
 Frase2
 ```
@@ -17,7 +18,8 @@ Frase2
 Te genera un fichero motds.dat que es el que usa el programa fortune.
 
 ##Fichero .profile
-```echo
+```
+echo
 fortune   # Genera un mensaje usando la base de datos de frases del sistema
 echo
 fortune $HOME/motd/motds   # Genera un mensaje usando la base de datos de frases del usuario (no hay que poner extensión .dat)
