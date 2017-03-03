@@ -147,7 +147,7 @@ message:
     $ bzr push lp:~mr.x/+junk/test-trunk
     Rama nueva creada.
     ```
-  * Cuando haces un push, lo guardará como localización por defecto (push_location). Si lo quieres cambiar hay que hacer:
+  * Cuando haces un push, lo guardará como localización por defecto (push_location). Si lo quieres cambiar, la siguiente vez que hagas un push debes especificar la localización del push y poner el flag "--remember":
 
     ```
     bzr push --remember [location]
@@ -158,7 +158,7 @@ message:
 ```
 $ bzr config
 branch:
-  push_location = bzr+ssh://bazaar.launchpad.net/~mr.x/+junk/trunk/
+  push_location = bzr+ssh://bazaar.launchpad.net/~mr.x/+junk/test-trunk/
 bazaar:
   [DEFAULT]
   email = Mr X <mr.x@gmail.com>
@@ -179,13 +179,36 @@ $ bzr branch lp:~ggdb/+junk/test-trunk test/trunk
 ```
 
 ##Actualizar rama local con la rama remota (merge)
+
+La primera vez hay que especificar la localización remota:
+```
+$bzr merge lp:~ggdb/+junk/test-trunk
+Nada que hacer.
+$ bzr config
+branch:
+  push_location = bzr+ssh://bazaar.launchpad.net/~mrx/+junk/test-trunk/
+  submit_branch = bzr+ssh://bazaar.launchpad.net/~mrx/+junk/test-trunk/
+bazaar:
+  [DEFAULT]
+  email = Mr X <mr.x@gmail.com>
+  launchpad_username = mr.x
+```
+
+La siguiente vez ya no hay que especificar la localización:
 ```
 $ bzr merge
-Merging from saved parent location: http://bazaar.launchpad.net/~bzr/bzr-gtk/trunk
-All changes applied successfully.
+Merging from recordados submit ubicación bzr+ssh://bazaar.launchpad.net/~ggdb/+junk/test-trunk/
+Nada que hacer.
 ```
 
 Si hubiera conflictos, habría que hacer un "bzr diff" para ver los cambios, editarlos y hacer un "bzr commit" después.
+
+##Trabajando con proyectos
+
+**TO DO**
+
+Normalmente no se trabaja con el pseudo proyecto "+junk", sino con proyectos públicos. Los comandos son los mismos,
+pero es posible que haya comandos específicos.
 
 ##Ayuda
 ```
