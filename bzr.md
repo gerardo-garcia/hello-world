@@ -1,10 +1,10 @@
-#BZR (Bazaar)
+# BZR (Bazaar) #
 
 La información la he extraído de este tutorial: http://doc.bazaar.canonical.com/latest/en/mini-tutorial/
 
 La principal diferencia que he percibido entre bzr+launchpad y git+github es que bzr+launchpad trabajan con ramas y no con repositorios. No configuras en bzr un repositorio remoto. Sincronizas siempre ramas locales con ramas en launchpad (las "clonas" con "branch", te traes los cambios con "merge" y los envías con "push"). Launchpad siempre te muestra las ramas en las que trabajas.
 
-##Instalación
+## Instalación ##
 
 Hay que instalar el paquete bzr:
 
@@ -18,7 +18,7 @@ Deseado=desconocido(U)/Instalar/eliminaR/Purgar/retener(H)
 ii  bzr                                                  2.7.0-2ubuntu3                  all                             easy to use distributed version control system
 ```
 
-##Configuración
+## Configuración ##
 
 Hay que poner un usuario y un correo, como en la configuración para Github:
 
@@ -26,7 +26,7 @@ Hay que poner un usuario y un correo, como en la configuración para Github:
 $ bzr whoami "Mr X <mr.x@gmail.com>"
 ```
 
-##Creación de un nuevo proyecto/repo local
+## Creación de un nuevo proyecto/repo local ##
 
 ```
 $ bzr init-repo test
@@ -39,7 +39,7 @@ Created a repository tree (format: 2a)
 Using shared repository: /home/mrx/test/
 ```
 
-##Trabajar con el repo:
+## Trabajar con el repo ##
 
 Para añadir ficheros y hacer un commit:
 ```
@@ -86,7 +86,7 @@ modificado test.txt
 Revisión 3 confirmada.
 ```
 
-##Ver el log
+## Ver el log ##
 
 ```
 $ bzr log
@@ -113,7 +113,7 @@ message:
   Added first file
 ```
 
-##Publicar en launchpad
+## Publicar en launchpad ##
 * Genera un par de claves y copia la clave pública en Launchpad
 * (OPCIONAL) Crea en Launchpad un equipo para el proyecto. https://launchpad.net/people/+newteam
 * (OPCIONAL) Crea en Launchpad un proyecto. https://launchpad.net/projects/+new
@@ -178,7 +178,7 @@ $ bzr init-repo test
 $ bzr branch lp:~ggdb/+junk/test-trunk test/trunk
 ```
 
-##Actualizar rama local con la rama remota (merge)
+## Actualizar rama local con la rama remota (merge) ##
 
 La primera vez hay que especificar la localización remota:
 ```
@@ -203,7 +203,7 @@ Nada que hacer.
 
 Si hubiera conflictos, habría que hacer un "bzr diff" para ver los cambios, editarlos y hacer un "bzr commit" después.
 
-##Trabajando con proyectos
+## Trabajando con proyectos ##
 
 **TO DO**
 
