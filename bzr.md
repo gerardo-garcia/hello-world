@@ -165,7 +165,7 @@ bazaar:
   launchpad_username = mr.x
 ```
 
-##Clonar una rama (crear una copia local de una rama)
+## Clonar una rama (crear una copia local de una rama) ##
 
 Por ejemplo, para crear una rama local de la rama trunk del proyecto gtk:
 ```
@@ -210,7 +210,7 @@ Si hubiera conflictos, habría que hacer un "bzr diff" para ver los cambios, edi
 Normalmente no se trabaja con el pseudo proyecto "+junk", sino con proyectos públicos. Los comandos son los mismos,
 pero es posible que haya comandos específicos.
 
-##Ayuda
+## Ayuda ##
 ```
 $ bzr help
 $ bzr help command
