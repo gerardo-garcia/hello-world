@@ -1,9 +1,9 @@
-#MOTD (mot of the day)
+# MOTD (mot of the day) #
 
-##Installation
+## Installation ##
 Necesitas instalar strfile y fortune.
 
-##Fichero motds
+## Fichero motds ##
 Es el fichero que tiene las frases en lineas independientes, separadas por el signo "%".
 
 ```
@@ -12,12 +12,12 @@ Frase1
 Frase2
 ```
 
-##Preparar fichero motds
+## Preparar fichero motds ##
 `strfile motds`
 
 Te genera un fichero motds.dat que es el que usa el programa fortune.
 
-##Fichero .profile
+## Fichero .profile ##
 ```
 echo
 fortune   # Genera un mensaje usando la base de datos de frases del sistema
