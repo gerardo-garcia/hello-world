@@ -15,7 +15,7 @@ To change runlevel now, e.g. to graphical:
 `sudo systemctl isolate graphical.target`
 
 ## Set default runlevel ##
-To set runlevel to multi-user.target
+To set default runlevel, e.g. to multi-user.target:
 
 ```
 sudo systemctl enable multi-user.target
