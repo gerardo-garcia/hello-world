@@ -7,4 +7,5 @@
 ## Misc ##
 - [MOTD (mot of the day)](motd.md)
 - [Runlevels](runlevels.md)
+- [Free disk space when boot is full](https://gist.github.com/jbgo/5016064)
 
