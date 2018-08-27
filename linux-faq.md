@@ -13,4 +13,6 @@
 - [Runlevels](runlevels.md)
 - [Free disk space when boot is full](https://gist.github.com/jbgo/5016064)
 - [Colorize less](https://superuser.com/questions/117841/get-colors-in-less-or-more)
+- [TMUX cheat sheet](https://gist.github.com/MohamedAlaa/2961058)
+- [Byobu cheat sheet](https://gist.github.com/inhumantsar/bf86ff1961cccdf8be06)
 
