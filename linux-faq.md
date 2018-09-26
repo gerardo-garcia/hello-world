@@ -11,7 +11,9 @@
 ## Misc ##
 - [MOTD (mot of the day)](motd.md)
 - [Runlevels](runlevels.md)
-- [Free disk space when boot is full](https://gist.github.com/jbgo/5016064)
+- Cleaning boot partition:
+    - [Free disk space when boot is full](https://gist.github.com/jbgo/5016064)
+    - [Safest way to clean up boot partition](https://gist.github.com/ipbastola/2760cfc28be62a5ee10036851c654600)
 - [Colorize less](https://superuser.com/questions/117841/get-colors-in-less-or-more)
 - [TMUX cheat sheet](https://gist.github.com/MohamedAlaa/2961058)
 - [Byobu cheat sheet](https://gist.github.com/devhero/7b9a7281db0ac4ba683f)
