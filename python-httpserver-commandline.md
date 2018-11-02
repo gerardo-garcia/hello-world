@@ -1,6 +1,6 @@
 # Simple command line HTTP server in Python #
 
-Details [python-httpserver-commandline.md](here).
+Details in [this link](https://unix.stackexchange.com/questions/32182/simple-command-line-http-server).
 
 ```
 python -m SimpleHTTPServer
