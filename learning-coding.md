@@ -13,6 +13,7 @@
 - [The Python Tutorial](https://docs.python.org/2/tutorial/)
 - [WxPython](http://wiki.wxpython.org/Getting%20Started)
 - [Lambda function](http://www.secnetix.de/olli/Python/lambda_functions.hawk)
+- [My tricks](python/python-tricks.md)
 
 ## SQL ##
 - [SQL W3Schools](http://www.w3schools.com/sql/)
