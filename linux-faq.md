@@ -17,4 +17,5 @@
 - [Colorize less](https://superuser.com/questions/117841/get-colors-in-less-or-more)
 - [TMUX cheat sheet](https://gist.github.com/MohamedAlaa/2961058)
 - [Byobu cheat sheet](https://gist.github.com/devhero/7b9a7281db0ac4ba683f)
+- [Command Line HTTP server in Python](python-httpserver-commandline.md)
 
