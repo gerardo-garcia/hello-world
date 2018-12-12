@@ -18,4 +18,7 @@
 - [TMUX cheat sheet](https://gist.github.com/MohamedAlaa/2961058)
 - [Byobu cheat sheet](https://gist.github.com/devhero/7b9a7281db0ac4ba683f)
 - [Command Line HTTP server in Python](python/python-httpserver-commandline.md)
+- Netplan Ubuntu:
+    - [Examples](https://netplan.io/examples)
+    - [Additional examples (e.g. mtu)](https://blog.ubuntu.com/2017/12/01/ubuntu-bionic-netplan)
 
